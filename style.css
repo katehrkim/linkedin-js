@@ -1,0 +1,89 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-flow: column;
+
+  /* vertically center */
+  /* justify-content: center; */
+
+  /* horizontally center */
+  align-items: center;
+
+  text-align: center;
+  background-color: aquamarine;
+  width: 900px;
+  margin: auto;
+}
+
+.w100 {
+  width: 100%
+}
+
+#nav {
+  background-color: #CC9999;
+  height: 60px;
+}
+
+#main {
+  background-color: #77DDFF;
+  display: flex;
+  flex-flow: row;
+}
+
+#main-left {
+  width: 600px;
+  background-color: #CCCCCC;
+  flex-grow: 1;
+}
+
+#main-right {
+  background-color: #FF8833;
+  flex-grow: 1;
+}
+
+.main-boxes {
+  padding: 8px;
+  margin: 12px;
+  background-color: cadetblue;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#splash-image {
+  margin: -12px -12px 8px -12px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#profile-summary {
+  position: relative;
+}
+
+#img-splash {
+  width: 100%;
+}
+
+#profile-stuff {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  justify-content: left;
+  
+}
+
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border-width: 4px;
+  border-color: white;
+  border-style: solid;
+}
+
+#bio {
+  margin: 60px 0px 0px 0px;
+  text-align: left;
+}
